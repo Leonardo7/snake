@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>snake</title>
+
+	<!-- CSS, JS -->
+	<link rel="stylesheet" href="styles/styles.css">
+	<script defer type="text/javascript" src="scripts/scripts.js"></script>
+
+</head>
+<body>
+
+
+	<main>
+		<div class="score">
+			<div>
+				<!-- SVG -->
+				<p>score: <a id="score">00</a></p>
+			</div>
+			<button id="replay">replay<!-- SVG --></button>
+		</div>
+		<div class="game">
+			<canvas id="gameCanvas" width="400px" height="400px"></canvas>
+			<div class="gameControls">
+				<div>
+					<button id="ArrowLeft">LEFT</button>
+					<button id="ArrowRight">RIGHT</button>
+				</div>
+				<div>
+					<button id="ArrowDown">DOWN</button>
+					<button id="ArrowUp">UP</button>
+				</div>
+			</div>
+		</div>
+	</main>
+
+
+</body>
+</html>
